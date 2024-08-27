@@ -1,0 +1,44 @@
+.alerts{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+    article{
+        animation: slideIn 0.5s;
+        
+        &.success{
+            border-left: solid 5px #28a745;
+
+            .fa-circle-check{
+                color: #28a745;
+            }
+        }
+        &.error{
+            border-left: solid 5px #dc3545;
+
+            .fa-circle-xmark{
+                color: #dc3545;
+            }
+        }
+        &.warning{
+            border-left: solid 5px #ffc107;
+
+            .fa-triangle-exclamation{
+                color: #ffc107;
+            }
+        }
+        &.info{
+            border-left: solid 5px #17a2b8;
+
+            .fa-circle-info{
+                color: #17a2b8;
+            }
+        }
+
+        .message{
+            margin: 0 10px;
+        }
+    }
+}
+
+

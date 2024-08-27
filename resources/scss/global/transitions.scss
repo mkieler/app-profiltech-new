@@ -1,0 +1,13 @@
+.slide-in-right{
+    margin-right: -300px;
+    transition: all 0.5s;
+
+    .start{
+        margin-right: -300px;
+    }
+
+    .end{
+        margin-right: 0;
+    }
+}
+

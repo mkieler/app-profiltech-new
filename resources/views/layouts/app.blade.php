@@ -9,7 +9,7 @@
 
         <title>@hasSection('page_title') @yield('page_title') - @endif {{ config('app.name', 'GoLearn Toolbox') }}</title>
 
-        @vite(['resources/scss/global/app.scss', 'resources/js/app.js', 'resources/scss/alert.scss'])
+        @vite(['resources/scss/global/app.scss', 'resources/js/app.js', 'resources/scss/components/alert.scss'])
 
         @stack('styles')
         @stack('scripts-head')
@@ -26,10 +26,10 @@
 
                     @yield( 'content' )
                 </main>
+                <livewire:alert/>
             </div>
             
         </div>
-
         @stack('styles-footer')
         @stack('scripts')
 

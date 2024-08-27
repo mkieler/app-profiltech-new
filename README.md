@@ -1,5 +1,5 @@
-
 ## INSTALLATION GUIDE
+This guide is made for LINUX OS but you should be able to do something similar with WINDOWS or MAC OS.
 
 <ol>
     <li>Clone the repository</li>
